@@ -1,0 +1,821 @@
+.dashboard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  overflow: auto;
+}
+
+.slide_1 {
+  background-image: radial-gradient(ellipse, #0000, #0007),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.228), rgba(0, 0, 0, 0.357)),
+    url("../../assets/backgrounds/online-shopping-young-start-small-business-cardboard-box-work\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 825px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard_contactUs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.dashboard_contactUs h1 {
+  font-size: 72px;
+  max-width: 50%;
+  font-weight: 600;
+  line-height: 94px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.contact_button {
+  width: 183px;
+  height: 54px;
+  padding: 20px, 40px, 20px, 40px;
+  border-radius: 1000px;
+  border: none;
+  gap: 10px;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  background: #f837b7;
+}
+.slide_2 {
+  color: #fff;
+  background-image: url("../../assets//backgrounds/Vector\ 48.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: #c2278e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 593px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_olvera {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.about_olvera h1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 72px;
+  align-self: flex-start;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.about_olvera p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-self: flex-end;
+  width: 300px;
+  color: #ffffff;
+}
+.slide2_bottom_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slide_2_img {
+  filter: brightness(150%);
+  width: 250px;
+  height: auto;
+}
+.arrow_button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: transparent;
+  align-self: flex-end;
+  color: #fff;
+}
+.arrowIcon {
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50%;
+  padding: 24px;
+  margin-left: 20px;
+  border: 2px solid #fff;
+}
+
+.arrowIcon img {
+  filter: invert(100%);
+  border-radius: 50%;
+}
+
+.slide_4 {
+  width: 100vw;
+  height: 700px !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide_5 {
+  background-image: radial-gradient(ellipse, #0000, #0007),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.228), rgba(0, 0, 0, 0.357)),
+    url("../../assets/backgrounds/Mask\ group.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 593px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide_5_xs {
+  background-image: radial-gradient(ellipse, #0000, #0007),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.228), rgba(0, 0, 0, 0.357)),
+    url("../../assets/backgrounds/Mask\ group.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 593px;
+  display: none;
+}
+
+.olvera_guides {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.olvera_guides h1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 72px;
+  align-self: flex-start;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.olvera_guides p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-self: flex-start;
+  width: 300px;
+  color: #ffffff;
+}
+.slide_6 {
+  background-image: radial-gradient(ellipse, #0000, #0007),
+    linear-gradient(180deg, #c2278e40, #c2278e40),
+    url("../../assets/backgrounds/diverse-business-shoot-2022-12-15-23-45-25-utc\ 5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 660px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide_6_playButton {
+  display: grid;
+  place-items: center;
+}
+.playIcon {
+  height: 213px;
+  width: auto;
+  cursor: pointer;
+}
+.slide_7 {
+  background-color: #fff;
+  width: 100vw;
+  height: 660px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide_7_content {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.slide_7_contentP {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.slide_3 {
+  /* background-image: url("../../assets//backgrounds/Vector\ 48.png"); */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  justify-content: center;
+}
+.slide_3_content {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.slide3img {
+  width: auto;
+  height: 100%;
+}
+.carrers {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+.carrers h1 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #c2278e;
+}
+.carrers h2 {
+  font-size: 53px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #373737;
+}
+.carrers p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #3f3e3e;
+}
+.carrers_button {
+  width: 173px;
+  height: 54px;
+  top: 3634px;
+  left: 119px;
+  padding: 20px, 40px, 20px, 40px;
+  border: none;
+  border-radius: 1000px;
+  gap: 10px;
+  background: #ff74d0;
+
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+@media (max-width: 481px) {
+  .slide_4 {
+    height: 1250px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dashboard_contactUs,
+  .about_olvera,
+  .olvera_guides,
+  .slide_7_content,
+  .slide_3_content {
+    width: 350px;
+  }
+  .slide_3_content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+  }
+  .carrers {
+    align-items: center;
+    width: 351px;
+    gap: 0;
+    padding: 20px;
+  }
+  .carrers_button {
+    margin-bottom: 20px;
+  }
+  .slide_6 {
+    height: 300px;
+  }
+  .playIcon {
+    height: 100px;
+  }
+  .carrers p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .slide_1 {
+    height: 300px;
+  }
+  .slide_2,
+  .slide_3,
+  .slide_4 {
+    height: auto;
+  }
+  .about_olvera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_olvera p {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 52px;
+    letter-spacing: 0em;
+  }
+  .about_olvera h1 {
+    align-self: center;
+    text-align: center;
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .slide2_bottom_links {
+    display: grid;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: auto auto;
+  }
+
+  .slide_7 {
+    height: 500px;
+  }
+  .slide_7_contentP {
+    font-size: 30px;
+    text-align: center;
+  }
+  .slide_2_img {
+    width: 150px;
+  }
+  .dashboard_contactUs h1 {
+    font-size: 50px;
+    max-width: 100%;
+  }
+  .slide_3 {
+    padding: 0;
+  }
+  .carrers h2 {
+    font-size: 40px;
+  }
+  .carrers p {
+    font-size: 16px;
+  }
+  .contact_button {
+    display: none;
+  }
+  .olvera_guides_xs h1 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #c2278e;
+  }
+  .olvera_guides_xs {
+    height: auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .olvera_guides_xs h2 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+  }
+  .olvera_guides_xs h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .olvera_guides_xs p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .arrowIcon_xs {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  .arrowIcon_xs img {
+    filter: invert(120%);
+  }
+  .arrow_button_xs {
+    color: #ffffff;
+
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .olvera_guides_xs {
+    height: auto;
+    width: 350px;
+  }
+  .slide_5_xs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slide_5 {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) {
+  .slide_4 {
+    height: 1200px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dashboard_contactUs,
+  .about_olvera,
+  .olvera_guides,
+  .slide_7_content,
+  .slide_3_content {
+    width: 401px;
+  }
+  .slide_3_content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+  }
+  .carrers {
+    align-items: center;
+    width: 481px;
+    gap: 0;
+    padding: 20px;
+  }
+  .carrers_button {
+    margin-bottom: 20px;
+  }
+  .carrers p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .slide_1 {
+    height: 500px;
+  }
+  .slide_3 {
+    padding: 0;
+  }
+  .slide_3,
+  .slide_4,
+  .slide_2 {
+    height: auto;
+  }
+
+  .about_olvera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_olvera p {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 52px;
+    letter-spacing: 0em;
+  }
+  .about_olvera h1 {
+    align-self: center;
+    text-align: center;
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .slide2_bottom_links {
+    display: grid;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+    grid-template-columns: auto auto;
+  }
+  .slide_6 {
+    height: 300px;
+  }
+  .playIcon {
+    height: 100px;
+  }
+  .slide_7 {
+    height: 500px;
+  }
+  .slide_7_contentP {
+    font-size: 30px;
+    text-align: center;
+  }
+  .slide_2_img {
+    width: 150px;
+  }
+  .dashboard_contactUs h1 {
+    font-size: 50px;
+    max-width: 100%;
+  }
+  .carrers h2 {
+    font-size: 40px;
+  }
+  .carrers p {
+    font-size: 16px;
+  }
+  .contact_button {
+    display: none;
+  }
+  .slide_5_xs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+  .olvera_guides_xs h1 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #c2278e;
+  }
+  .olvera_guides_xs {
+    height: 500px;
+    width: 401px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .olvera_guides_xs h2 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+  }
+  .olvera_guides_xs h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .olvera_guides_xs p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .arrowIcon_xs {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  .arrowIcon_xs img {
+    filter: invert(120%);
+  }
+  .arrow_button_xs {
+    color: #ffffff;
+
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .slide_5 {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .slide_4 {
+    height: 1200px !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .dashboard_contactUs,
+  .about_olvera,
+  .olvera_guides,
+  .slide_7_content,
+  .slide_3_content {
+    width: 700px;
+  }
+  .slide_1 {
+    height: 600px;
+  }
+  .slide_2,
+  .slide_3,
+  .slide_4 {
+    height: auto;
+  }
+  .slide_7 {
+    height: 500px;
+  }
+  .slide_7_contentP {
+    font-size: 30px;
+    text-align: center;
+  }
+  .slide_2_img {
+    width: 150px;
+  }
+  .dashboard_contactUs h1 {
+    font-size: 60px;
+  }
+  .carrers h2 {
+    font-size: 40px;
+  }
+  .carrers p {
+    font-size: 16px;
+  }
+  .slide_5_xs {
+    display: none;
+  }
+  .slide_4 {
+    display: flex;
+  }
+  .slide_5 {
+    display: flex;
+  }
+}
+
+@media (min-width: 1025px) {
+  .slide_4 {
+    height: 700px !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .dashboard_contactUs,
+  .about_olvera,
+  .olvera_guides,
+  .slide_7_content,
+  .slide_3_content {
+    width: 1000px;
+  }
+  .slide_5_xs {
+    display: none;
+  }
+  .slide_2,
+  .slide_3,
+  .slide_4 {
+    height: auto;
+  }
+  .slide_6 {
+    height: 600px;
+  }
+  .slide_2_img {
+    filter: brightness(150%);
+    width: 200px;
+    height: auto;
+  }
+  .contact_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 183px;
+    height: 54px;
+    padding: 20px, 40px, 20px, 40px;
+    border-radius: 1000px;
+    border: none;
+    gap: 10px;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    background: #f837b7;
+  }
+}
+@media (min-width: 1325px) {
+  .slide_4 {
+    height: 800px !important;
+  }
+  .slide_2,
+  .slide_3,
+  .slide_4 {
+    height: 600px;
+  }
+  .slide_6 {
+    height: 600px;
+  }
+  .dashboard_contactUs,
+  .about_olvera,
+  .olvera_guides,
+  .slide_7_content,
+  .slide_3_content {
+    width: 1200px;
+  }
+  .slide2_bottom_links,
+  .slide_3_content {
+    display: flex;
+    flex-direction: row;
+  }
+  .carrers {
+    align-items: flex-start;
+  }
+  .carrers p {
+    text-align: left;
+  }
+  .contact_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 183px;
+    height: 54px;
+    padding: 20px, 40px, 20px, 40px;
+    border-radius: 1000px;
+    border: none;
+    gap: 10px;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    background: #f837b7;
+  }
+}

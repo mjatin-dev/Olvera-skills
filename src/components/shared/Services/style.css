@@ -1,0 +1,243 @@
+.services_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services_items h1 {
+  color: #cc0e8c;
+  font-size: 62px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.flatArrow {
+  width: 30px;
+  height: 20px;
+}
+.services_items p {
+  color: #292929;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.services_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services_section_heading h3 {
+  color: #c2278e;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.services_section_heading h6 {
+  color: #2d2d2d;
+  font-weight: 800;
+  font-size: 45px;
+  width: 450px;
+  margin: 0;
+  padding: 0;
+}
+
+.services_section_heading p {
+  width: 550px;
+  color: #6e6e6e;
+}
+
+.service_terms {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.service_terms_items {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.service_terms_items h5 {
+  color: #c2278e;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.service_terms_items p {
+  color: #2d2d2d;
+  font-weight: 800;
+  font-size: 24px;
+  position: relative;
+  margin: 10px 0;
+}
+
+.service_terms_items p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  left: 0;
+  top: 33px;
+  width: 20%;
+  height: 3px;
+  background-color: #2d2d2d;
+}
+.services {
+  height: 100%;
+}
+@media (max-width: 481px) {
+  .service_terms_items {
+    text-align: left;
+  }
+  .service_terms_items p::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    left: 0;
+    top: 36px;
+    width: 20%;
+    height: 3px;
+    background-color: #2d2d2d;
+  }
+  .services {
+    width: 350px;
+  }
+  .services_items {
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    grid-template-columns: auto auto;
+  }
+  .services_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .services_section_heading {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .services_section_heading h3 {
+    display: none;
+  }
+  .services_section_heading p,
+  .service_terms {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) {
+  .service_terms_items {
+    text-align: left;
+  }
+  .services {
+    width: 401px;
+  }
+  .services_items {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .services_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .services_section_heading {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .services_section_heading h3 {
+    display: none;
+  }
+  .services_section_heading p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .services {
+    width: 700px;
+  }
+  .services_items {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 100px;
+  }
+  .services_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .services_section_heading {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .services_section_heading h3 {
+    display: none;
+  }
+  .services_section_heading p {
+    width: 1005;
+  }
+}
+
+@media (min-width: 1025px) {
+  .services {
+    width: 1000px;
+  }
+  .services_items {
+    display: flex;
+  }
+  .services_section {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+  }
+  .services_section_heading {
+    flex-direction: column;
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+@media (min-width: 1325px) {
+  .services {
+    width: 1200px;
+  }
+  .services_items {
+    display: flex;
+  }
+  .services_section {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+  }
+  .services_section_heading {
+    flex-direction: column;
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}

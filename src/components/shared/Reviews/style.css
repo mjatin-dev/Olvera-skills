@@ -1,0 +1,7 @@
+.review_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow: auto;
+}

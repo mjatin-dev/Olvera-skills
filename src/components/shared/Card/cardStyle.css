@@ -1,0 +1,119 @@
+.active_card_body {
+  background: #c2278e;
+  padding: 30px;
+  max-width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+.card_body {
+  background: #c2278e08;
+  padding: 30px;
+  max-width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+.active_card_content {
+  font-size: 20px !important ;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 300px;
+
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  color: #ffffff;
+}
+.card_content {
+  font-size: 20px !important ;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 300px;
+
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  color: #5e84a1;
+}
+
+.invertedCommas2 {
+  filter: brightness(120%);
+  height: auto;
+  width: 20px;
+  align-self: flex-end;
+}
+.invertedCommas {
+  height: auto;
+  filter: brightness(120%);
+  width: 20px;
+  transform: rotate(180deg);
+}
+.cardImage {
+  height: 30px;
+  width: auto;
+  background-color: #c2278e;
+  padding: 15px;
+  border-radius: 50%;
+}
+.active_cardImage {
+  height: 30px;
+  width: auto;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 50%;
+}
+.active_card_name {
+  font-size: 18px !important;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  color: #ffffff;
+}
+.card_name {
+  font-size: 18px !important;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  color: #1e5068;
+}
+.card_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 50px;
+}
+.active_card_date {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px !important;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c5e9fb;
+}
+.card_date {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px !important;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5e84a1;
+}
+.card_action_box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
